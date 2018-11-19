@@ -20,8 +20,6 @@ h3 {
     font-size: 24px;
 }
 
-/*-------NAVIGATION---------*/
-
 .menu-icon {
     position: fixed;
     top: 15px;
@@ -91,8 +89,6 @@ h3 {
 .show {
     transition: .4s;
 }
-
-/* ---HEADER--- */
 
 .header-main {
     height: 100vh;
@@ -167,8 +163,6 @@ h3 {
     color: #d67601;
 }
 
-/*---ABOUT----*/
-
 .about {
     display: flex;
     align-items: center;
@@ -182,8 +176,6 @@ h3 {
     width: 70%;
     font-size: 18px;
 }
-
-/*--GALLERY--*/
 
 .gallery-main {
     display: flex;
@@ -247,8 +239,6 @@ h3 {
     border-bottom: 2px solid #fff;
 }
 
-/* ---BASIC ELEMENTS--- */
-
 .article-box {
     display: flex;
     flex-wrap: wrap;
@@ -275,8 +265,6 @@ h3 {
 .article-item p {
     font-size: 18px;
 }
-
-/* ---FORM--- */
 
 .form-box {
     margin: 100px 0;
@@ -354,8 +342,6 @@ textarea,
     background-color: #d67601;
 }
 
-/* ---ICON-BOX--- */
-
 .icon-box {
     padding-bottom: 100px;
 }
@@ -376,8 +362,6 @@ textarea,
 .icons a:hover {
     color: #202020;
 }
-
-/* ---FOOTER--- */
 
 footer {
     height: 100px;
