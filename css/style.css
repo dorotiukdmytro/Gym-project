@@ -86,10 +86,6 @@ h3 {
     color: #fff;
 }
 
-.show {
-    transition: .4s;
-}
-
 .header-main {
     height: 100vh;
     background-image: url(../img/gym.jpeg);
@@ -139,6 +135,7 @@ h3 {
     padding-top: 20px;
     font-family: 'Roboto', sans-serif;
     font-size: 34px;
+    text-transform: uppercase;
     font-weight: bold;
     color: #ccc;
 }
