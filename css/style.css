@@ -338,7 +338,7 @@ h3 {
 .form {
     display: flex;
     flex-wrap: wrap;
-    width: 35%;
+    width: 40%;
     justify-content: space-between;
     align-items: center;
     margin-top: 50px;
@@ -351,8 +351,9 @@ input[type="text"] {
 }
 
 textarea {
-    height: 60px;
     flex-basis: 100%;
+    min-height: 80px;
+    max-height: 100px;
     margin-top: 20px;
     padding: 5px;
     font-family: 'Open Sans', sans-serif;
@@ -460,7 +461,7 @@ footer {
     }
 
     .form {
-        width: 45%;
+        width: 55%;
     }
 
     .icon-box {
@@ -483,12 +484,6 @@ footer {
 
     .form-box {
         height: 100vh;
-    }
-}
-
-@media (max-width: 852px) {
-    .form {
-        width: 75%;
     }
 }
 
@@ -550,10 +545,6 @@ footer {
         font-size: 24px;
     }
 
-    .form {
-        width: 60%;
-    }
-
     footer {
         font-size: 12px;
     }
@@ -571,12 +562,6 @@ footer {
     }
 }
 
-@media (max-width: 649px) {
-    .form {
-        width: 80%;
-    }
-}
-
 @media (max-width: 576px) {
 
     .nav-main {
@@ -590,7 +575,6 @@ footer {
 
     .nav-main ul {
         justify-content: flex-start;
-
     }
 
     .nav-main ul li a {
@@ -647,7 +631,6 @@ footer {
     }
 
     .form {
-        width: 80%;
         margin-top: 20px;
     }
 
