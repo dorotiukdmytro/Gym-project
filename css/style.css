@@ -306,7 +306,8 @@ h3 {
 
 .form-box {
     margin: 100px 0;
-    height: 70vh;
+    /*    padding: 100px 0;*/
+    height: 600px;
     text-align: center;
     background-image: url(../img/bg-form.jpeg);
     background-size: cover;
@@ -315,7 +316,7 @@ h3 {
 }
 
 .form-box-inner {
-    height: 100%;
+    height: 600px;
     background-color: rgba(0, 0, 0, .7);
     z-index: -5;
 }
@@ -560,6 +561,14 @@ footer {
     .form-box {
         height: 100vh;
     }
+}
+
+@media (max-width: 576px) {
+
+    .form {
+        width: 90%;
+    }
+
 }
 
 @media (max-width: 576px) {
