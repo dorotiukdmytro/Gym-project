@@ -15,7 +15,7 @@ $(function () {
         }
     });
 
-    $(document).on('click', 'a', function (event) {
+    $doc.on('click', 'a', function (event) {
         event.preventDefault();
 
         $('html, body').animate({
@@ -25,6 +25,12 @@ $(function () {
 
     $('.menu-icon').on('click', function () {
         $('.nav-main').toggleClass('show');
+
+    });
+
+    $('.menu-btn').on('click', function () {
+        $(this).toggleClass('menu-btn-active');
     })
+
 
 });
