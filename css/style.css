@@ -571,6 +571,12 @@ footer {
     }
 }
 
+@media (max-width: 649px) {
+    .form {
+        width: 80%;
+    }
+}
+
 @media (max-width: 576px) {
 
     .nav-main {
