@@ -483,11 +483,6 @@ footer {
 
 @media (orientation: landscape) and (max-width: 992px) {
 
-    .header-main,
-    .header-main .header-box {
-        height: 100vh;
-    }
-
     .form-box {
         height: 350px;
     }
@@ -509,7 +504,7 @@ footer {
 
     .header-main,
     .header-main .header-box {
-        height: 60vh;
+        height: 350px;
     }
 
     .header-inner h1 {
@@ -557,14 +552,6 @@ footer {
 
     footer {
         font-size: 12px;
-    }
-}
-
-@media (orientation: landscape) and (max-width: 768px) {
-
-    .header-main,
-    .header-main .header-box {
-        height: 100vh;
     }
 }
 
@@ -649,14 +636,6 @@ footer {
 
     .icon-box {
         padding-bottom: 30px;
-    }
-}
-
-@media (orientation: landscape) and (max-width: 576px) {
-
-    .header-main,
-    .header-main .header-box {
-        height: 100vh;
     }
 }
 
