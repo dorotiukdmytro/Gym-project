@@ -33,7 +33,7 @@ $(function () {
         $(this).toggleClass('menu-btn-active');
     })
 
-    $('.arrow-box').on('click', function (e) {
+    $('.arrow-box').on('click', function () {
         $('html').animate({
             scrollTop: 0
         }, 600);
