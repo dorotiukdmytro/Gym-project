@@ -2,6 +2,7 @@ $(function () {
 
     var $doc = $(document);
     var $headerMain = $('.header-main');
+    //    var $upButton = $('.arrow-box');
 
     $doc.scroll(function () {
 
@@ -18,7 +19,7 @@ $(function () {
     $doc.on('click', 'a', function (event) {
         event.preventDefault();
 
-        $('html, body').animate({
+        $('html').animate({
             scrollTop: $($.attr(this, 'href')).offset().top
         }, 800);
     });
@@ -32,5 +33,10 @@ $(function () {
         $(this).toggleClass('menu-btn-active');
     })
 
+    $('.arrow-box').on('click', function (e) {
+        $('html').animate({
+            scrollTop: 0
+        }, 600);
+    });
 
 });
