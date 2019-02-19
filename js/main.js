@@ -18,7 +18,7 @@ $(function () {
     $doc.on('click', 'a', function (event) {
         event.preventDefault();
 
-        $('html').animate({
+        $('html, body').animate({
             scrollTop: $($.attr(this, 'href')).offset().top
         }, 800);
     });
@@ -30,10 +30,10 @@ $(function () {
 
     $('.menu-btn').on('click', function () {
         $(this).toggleClass('menu-btn-active');
-    })
+    });
 
     $('.arrow-box').on('click', function () {
-        $('html').animate({
+        $('html, body').animate({
             scrollTop: 0
         }, 600);
     });
