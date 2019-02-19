@@ -2,7 +2,6 @@ $(function () {
 
     var $doc = $(document);
     var $headerMain = $('.header-main');
-    //    var $upButton = $('.arrow-box');
 
     $doc.scroll(function () {
 
