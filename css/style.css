@@ -25,6 +25,7 @@ h3 {
 }
 
 .menu-icon {
+    -webkit-tap-highlight-color: transparent;
     position: fixed;
     top: 20px;
     right: 10px;
@@ -382,6 +383,7 @@ textarea {
 
 .form .button {
     -webkit-appearance: none;
+    -webkit-tap-highlight-color: transparent;
     margin: 20px auto 0;
     padding: 10px 20px;
     text-transform: uppercase;
@@ -408,6 +410,7 @@ textarea {
 }
 
 .icons a {
+    -webkit-tap-highlight-color: transparent;
     color: #d67601;
     margin: 0 20px;
     transition: .3s;
@@ -419,6 +422,7 @@ textarea {
 }
 
 .arrow-box {
+    -webkit-tap-highlight-color: transparent;
     position: fixed;
     bottom: 0;
     right: 20px;
