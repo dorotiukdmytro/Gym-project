@@ -9,6 +9,23 @@ body {
     background-color: #f5f5f5;
 }
 
+body::-webkit-scrollbar {
+    width: 15px;
+}
+
+body::-webkit-scrollbar-track {
+    background-color: #fcd19d;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #d67601;
+    border-radius: 10px;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(to top, #d67601, #ff9009 ) ;
+}
+
 .wrapper {
     overflow: hidden;
 }
