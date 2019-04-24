@@ -13,6 +13,12 @@ $(function () {
         } else {
             $('.nav-main').removeClass('light-bg');
         }
+
+        if (scrollPosition > headerMainHeight * 0.5) {
+            $('.arrow-box').addClass('visible');
+        } else {
+            $('.arrow-box').removeClass('visible');
+        }
     });
 
     $doc.on('click', 'a', function (event) {
@@ -25,7 +31,6 @@ $(function () {
 
     $('.menu-icon').on('click', function () {
         $('.nav-main').toggleClass('show');
-
     });
 
     $('.menu-btn').on('click', function () {
@@ -37,5 +42,4 @@ $(function () {
             scrollTop: 0
         }, 600);
     });
-
 });

@@ -442,7 +442,7 @@ textarea {
 .arrow-box {
     -webkit-tap-highlight-color: transparent;
     position: fixed;
-    bottom: 0;
+    bottom: -50px;
     right: 20px;
     width: 50px;
     height: 50px;
@@ -452,12 +452,18 @@ textarea {
     background-color: #d67601;
     border-radius: 10px 10px 0 0;
     cursor: pointer;
-    transition: .2s;
+    transition: .3s;
     z-index: 10;
+    opacity: 0;
 }
 
 .arrow-box:hover {
     background-color: #d3811d;
+}
+
+.arrow-box.visible {
+    opacity: 1;
+    bottom: 0;
 }
 
 .arrow-box i {
