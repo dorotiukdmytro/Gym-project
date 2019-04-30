@@ -13,17 +13,14 @@ body::-webkit-scrollbar {
     width: 15px;
 }
 
-body::-webkit-scrollbar-track {
-    background-color: #fcd19d;
-}
-
 body::-webkit-scrollbar-thumb {
-    background-color: #d67601;
+    background-color: #757575;
     border-radius: 10px;
+    transition: .3s;
 }
 
 body::-webkit-scrollbar-thumb:hover {
-    background: linear-gradient(to top, #d67601, #ff9009 ) ;
+    background-color: #616161;
 }
 
 .wrapper {
@@ -343,7 +340,7 @@ h3 {
     left: 0;
     height: 100%;
     width: 100%;
-    background-color: rgba(0, 0, 0, .7);
+    background-color: rgba(0, 0, 0, .5);
 }
 
 .form-box-items {
@@ -358,7 +355,7 @@ h3 {
 }
 
 .form-box h2 {
-    color: #ccc;
+    color: rgb(100, 100, 100);
 }
 
 .form {
